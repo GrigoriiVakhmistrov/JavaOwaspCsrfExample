@@ -14,7 +14,7 @@
     <name>SpringSecurity</name>
     <description>SpringSecurity</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>18</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -24,6 +24,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+            <scope>provided</scope>
         </dependency>
 
 
